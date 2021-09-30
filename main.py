@@ -14,7 +14,7 @@ if __name__ == "__main__":
     clock = pygame.time.Clock()
     '''
     pygame.init()
-    int = MazeInterface.MazeInterface(20, 20)
+    int = MazeInterface.MazeInterface(70, 70, 10)
     try:
         while(1):
             pygame.event.pump()
